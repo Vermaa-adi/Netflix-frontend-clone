@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bgimage{
+    background-image: url(netflixbgimage.webp);
+    height: 50rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+body{
+    background-color: black;
+    margin-left: 6rem;
+    margin-right: 9rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 80rem;
+}
+.netflixlogo img{
+    width: 10rem;
+    float: inline-start;
+    bottom: 6rem;
+    margin-top: 1.5rem;
+}
+.signinbtn{
+    color: black;
+    background-color: white;
+    height: 2rem;
+    width: 5rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 4px;
+    transition: 0.4s;
+}
+.signinbtn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.4s;
+
+}
+#language{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 50px;
+    font-size: medium;
+    padding-left:20px ;
+}
+.content{
+    margin: 100px 50px 0px 50px;
+}
+.text1{
+    color: white;
+    font-size:4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 1000;
+}
+.text2{
+    color: white;
+    font-size:4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+}
+.text3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5rem;
+}
+.text4{
+    color: white;
+    color: rgb(165, 161, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.box{
+    margin: 0.75rem 3rem;
+    display: flex;
+}
+.box input{
+    background:none;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-left: 10px;
+    height: 3rem;
+    width: 20rem;
+    font-size: medium;    
+    color: white;
+}
+.box text{
+    color: white;
+}
+.box button{
+    background-color: red;
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 0.5rem;
+    transition: 0.4s;
+}
+.box button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.text5{
+    color: white;
+    margin: 2rem 3rem 1rem 3rem;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.imageline1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.image1{
+    background-image: url(image1.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image2{
+    background-image: url(image2.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image3{
+    background-image: url(image3.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image3:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image4{
+    background-image: url(image4.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image4:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image5{
+    background-image: url(image5.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image5:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image6{
+    background-image: url(image6.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image6:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.imageline2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.image7{
+    background-image: url(image7.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image7:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image8{
+    background-image: url(image8.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image8:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image9{
+    background-image: url(image9.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image9:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image10{
+    background-image: url(image10.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image10:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image11{
+    background-image: url(image11.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image11:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.image12{
+    background-image: url(image12.webp);
+    width: 12rem;
+    height: 20rem;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.image12:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.text6{
+    color: white;
+    margin: 0rem 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.1rem;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif
+}
+.dabba{
+    height: 7rme;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+.boxes{
+    height: 7rem;
+    width:15rem;
+    background-color: rgba(147, 144, 144, 0.274);
+    margin-top: 1rem;
+    border-radius: 20px;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 1.1rem;
+    padding: 1.1rem;
+    margin: 0rem 1.4rem;
+    font-weight: 800;
+}
+.box1logo img{
+    position: relative;
+    top: 1.3rem;
+    left: 11rem;
+    height: 3.3rem;
+
+}
+.box2logo img{
+    position: relative;
+    top: 2rem;
+    left: 10.2rem;
+    height: 3rem;
+}
+.box3logo img{
+    position: relative;
+    top: 3rem;
+    left: 10.4rem;
+    height: 3rem;
+}
+.box4logo img{
+    position: relative;
+    top: 2rem;
+    left: 10.5rem;
+    height: 3rem;
+}
+.text7{
+    color: white;
+    margin-left: 3rem;
+    font-size: 2.1rem;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif
+}
